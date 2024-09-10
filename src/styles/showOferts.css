@@ -1,0 +1,37 @@
+.offertContainer {
+  padding: 3rem 8rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.offerts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+}
+.offertDiv {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 2rem;
+  padding: 1.5rem;
+  width: 16em;
+  height: 22em;
+  -webkit-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.57);
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.57);
+  transition: all 1s ease-in-out;
+  font-size: small;
+}
+.offertDiv:hover {
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(255, 208, 0, 0.57);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(255, 208, 0, 0.57);
+  box-shadow: 0px 0px 16px 3px rgba(255, 208, 0, 0.57);
+}

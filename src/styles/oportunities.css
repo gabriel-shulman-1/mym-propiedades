@@ -1,0 +1,38 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 6rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 3rem;
+}
+
+.oportunidadesPhotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.fotos{
+    width: 15rem;
+    margin: 3rem;
+}
+.fotos img{
+    width: 15rem;
+    transition: all 0.3s ease-in;
+}
+.f1:hover img{
+    opacity: 0;
+    transition: all 0.3s ease-in;
+}
+.f2:hover img{
+    opacity: 0;
+    transition: all 0.3s ease-in;
+}
+.f3:hover img{
+    opacity: 0;
+    transition: all 0.3s ease-in;
+}

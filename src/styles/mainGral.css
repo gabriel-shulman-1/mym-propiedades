@@ -1,0 +1,45 @@
+.main-section .section-content {
+  margin-bottom: 30px;
+}
+.main-section .section-content p {
+  line-height: 1.6;
+  color: #333;
+}
+.main-section .section-div {
+  margin-bottom: 20px;
+}
+.main-section .section-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.main-section .section-grid > div {
+  flex: 1 1 calc(33.333% - 20px);
+  background-color: #eaeaea;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.main-section .about-me img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.section-title {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  margin: 0.5rem;
+}
+.seccionTx{
+  margin: 0.2rem;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: medium;
+}

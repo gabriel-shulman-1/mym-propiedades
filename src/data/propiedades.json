@@ -1,0 +1,125 @@
+{
+  "houses": [
+    {
+      "id": 1,
+      "tt": "jose barros pazos 6676",
+      "tx": "Casa con 4 ambientes en centro de Lugano",
+      "Htipe":true,
+      "action": [true, false],
+      "cost": [100000,0],
+      "type": 1,
+      "img": 1
+    },
+    {
+      "id": 2,
+      "tt": "montiel 5000",
+      "tx": "PH con 2 ambientes",
+      "Htipe":true,
+      "action": [false, true],
+      "cost": [0,300000],
+      "type": 1,
+      "img": 2
+    },
+    {
+      "id": 3,
+      "tt": "guamini 10000",
+      "tx": "Departamento con 2 ambientes",
+      "Htipe":false,
+      "action": [true, true],
+      "cost": [100000,200000],
+      "type": 1,
+      "img": 3
+    },
+    {
+      "id": 4,
+      "tt": "cruz 1200",
+      "tx": "Departamento Monoambiente",
+      "Htipe":false,
+      "action": [false, true],
+      "cost": [0,100000],
+      "type": 1,
+      "img": 4
+    },
+    {
+      "id": 5,
+      "tt": "Cañada de Gomez 4745",
+      "tx": "Casa con 10 ambientes",
+      "Htipe":true,
+      "action": [true, false],
+      "cost": [80000,0],
+      "type": 1,
+      "img": 5
+    }
+  ],
+  "workshops": [
+    {
+      "id": 1,
+      "tt": "Unanue 8000",
+      "Wtype": false,
+      "x": 50,
+      "y": 20,
+      "action": [true, false],
+      "cost": [100000,0],
+      "type": 2,
+      "img": 1
+    },
+    {
+      "id": 2,
+      "tt": "Itaqui 5000",
+      "Wtype": false,
+      "x": 100,
+      "y": 50,
+      "action": [false, true],
+      "cost": [0,100000],
+      "type": 2,
+      "img": 2
+    },
+    {
+      "id": 3,
+      "tt": "Cosquin 10000",
+      "Wtype": true,
+      "x": 100,
+      "y": 100,
+      "action": [true, false],
+      "cost": [100000,0],
+      "type": 2,
+      "img": 3
+    },
+    {
+      "id": 4,
+      "tt": "Roca 1200",
+      "Wtype": false,
+      "x": 30,
+      "y": 20,
+      "action": [false, true],
+      "cost": [0,100000],
+      "type": 1,
+      "img": 4
+    },
+    {
+      "id": 5,
+      "tt": "Escalada 4745",
+      "Wtype": true,
+      "x": 90,
+      "y": 30,
+      "action": [true, false],
+      "cost": [90000,0],
+      "type": 2,
+      "img": 5
+    }
+  ],
+  "buildings": [
+    {
+      "id": 1,
+      "tt": "Piedra Buena 2000",
+      "tx": "Edificación",
+      "x": 50,
+      "y": 20,
+      "flors": 3,
+      "action": [true, false],
+      "cost": [1000000,0],
+      "type": 3,
+      "img": 1
+    }
+  ]
+}

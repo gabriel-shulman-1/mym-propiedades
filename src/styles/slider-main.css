@@ -1,0 +1,52 @@
+.sliderContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: -webkit-fill-available;
+  padding-left: 2rem;
+  justify-content: center;
+}
+.imgSection{
+  padding: 0 6rem 0 6rem;
+}
+.imgSection img{
+  margin: 0 auto;
+  height: 700px;
+  width: 1200px;
+}
+.descriptionSect {
+  left: 5%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 2rem;
+  padding: 2rem 4rem 2rem 3rem;
+  width: 30rem;
+  border-radius: 10px;
+  background-color: rgb(89, 89, 89);
+  background: linear-gradient(
+    90deg,
+    rgba(89, 89, 89, 0.5634628851540616) 1%,
+    rgba(89, 89, 89, 1) 8%,
+    rgba(89, 89, 89, 1) 79%,
+    rgba(203, 203, 203, 0.3785889355742297) 100%
+  );
+  -webkit-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.57);
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.57);
+  color: white;
+  transition: all 1s ease-in-out;
+}
+.descriptionSect:hover {
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(255, 255, 255, 0.57);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(255, 255, 255, 0.57);
+  box-shadow: 0px 0px 16px 3px rgba(255, 255, 255, 0.57);
+  transition: all 1s ease-in-out;
+}
+.descriptionSect div {
+  gap: 4px;
+  display: flex;
+  flex-direction: row;
+}
