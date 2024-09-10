@@ -47,7 +47,7 @@ export const ShowOferts = () => {
 
   return (
     <div className="offertContainer" >
-      <h1 className="section-title" style={{ fontSize: "xx-large" }}>
+      <h1 className="section-title" style={{ fontSize: "xx-large", marginRight:"auto", marginLeft:"3rem" }}>
         Mas propiedades disponibles
       </h1>
       <div className="offerts">
@@ -64,8 +64,7 @@ export const ShowOferts = () => {
               style={{
                 display: "flex",
                 flexDirection: "column",
-                justifyContent: "space-around",
-                margin: "1.5rem",
+                justifyContent: "space-around"
               }}
             >
               <p className="seccionTx">

@@ -51,11 +51,11 @@ export const Alquiler = () => {
           >
             Propiedades en Alquiler
           </h1>
-          {rdh.map((e) =>
-            e.action[1] === true ? <VentasHome houses={e} /> : <></>
+          {rdh.map((e,index) =>
+            e.action[1] === true ? <VentasHome houses={e} key={index}/> : <></>
           )}
-          {rdo.map((e) =>
-            e.action[1] === true ? <VentasWork works={e} /> : <></>
+          {rdo.map((e,index) =>
+            e.action[1] === true ? <VentasWork works={e} key={index}/> : <></>
           )}
         </div>
       </>

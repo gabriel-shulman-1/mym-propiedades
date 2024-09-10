@@ -21,10 +21,8 @@ export const NavBar = () => {
             </a>
           </div>
           <div className="social-icons">
-            <div className="social-description">
               <Wps phoneNumber="+5491176095089" message={wps1} />
               <Email />
-            </div>
           </div>
         </div>
 
