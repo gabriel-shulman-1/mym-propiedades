@@ -1,0 +1,44 @@
+#path1 {
+  fill: rgba(0, 128, 0, 0.397);
+  transition: 0.5s;
+}
+#path2 {
+  fill: rgba(255, 0, 0, 0.384);
+  transition: 0.5s;
+}
+
+#path3 {
+  fill: rgba(0, 0, 255, 0.651);
+  transition: 0.5s;
+}
+
+#path1:hover {
+  box-shadow: 0px 0px 5px 3px rgba(35, 110, 250, 0.57);
+  fill: rgb(0, 190, 0);
+  transition: 0.5s;
+}
+#path2:hover {
+  fill: rgb(255, 0, 0);
+  transition: 0.5s;
+}
+#path3:hover {
+  animation: map 4s infinite;
+  transition: 0.5s;
+}
+@keyframes map {
+  0% {
+    fill: blue;
+  }
+  25% {
+    fill: green;
+  }
+  50% {
+    fill: yellow;
+  }
+  75% {
+    fill: red;
+  }
+  100% {
+    fill: blue;
+  }
+}
