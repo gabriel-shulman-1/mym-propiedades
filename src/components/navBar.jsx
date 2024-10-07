@@ -12,13 +12,18 @@ export const NavBar = () => {
     { id: "Proyectos", name: '/proyectos' }
   ];
 
+  const logoStyle = {
+    fontFamily:"Baskerville Old Face",
+    color:"rgb(189 55 28)"
+  }
+
   return (
     <>
       <header>
         <div className="top-bar">
           <div className="logo">
-            <a href={"/"}>
-            </a>
+            <h1 style={logoStyle}>PROIEDADES<br/>
+            <span style={{fontSize:"xxx-large"}}>MAGNONE ~ MARANO</span></h1>
           </div>
           <div className="social-icons">
               <Wps phoneNumber="+5491176095089" message={wps1} />
